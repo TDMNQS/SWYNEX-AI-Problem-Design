@@ -1,0 +1,9 @@
+Hello, I am Numan Qureshi. For SWYNEX Task 1, I designed an AI question-answering assistant for students reading research papers.
+
+The scope is deliberately small: five papers about retrieval and language models. A user asks a question, and the proposed system retrieves relevant passages and produces a short answer with traceable citations. If the papers do not provide enough evidence, it should decline to answer.
+
+My document explains the user, data sources, preparation steps, constraints, and a proposed RAG approach. I included a BM25 baseline so that added AI complexity can be evaluated fairly.
+
+The evaluation plan uses separate development and test questions and measures retrieval, correctness, citation support, abstention, latency, and cost. All performance numbers in the document are proposed targets, not achieved results.
+
+My key learning is that defining what an AI system should do, and how to test it, is essential before building it. Thank you.
